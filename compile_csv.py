@@ -7,7 +7,7 @@ import glob
 import pandas as pd
 
 # 1---フォルダ内のCSVファイルの一覧を取得
-files = sorted(glob.glob('/Users/nakagawamasaki/venv10/csv_compile/*.csv'))
+files = sorted(glob.glob('./csv_compile/*.csv'))
 
 # 2---ファイル数を取得
 file_number = len(files)

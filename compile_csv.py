@@ -1,4 +1,7 @@
-
+"""
+実行 python compile_csv.py
+実行中保存するファイルの名前が聞かれるので、ファイル名を「〇〇.csv」で入力
+"""
 #結合プログラム
 import glob
 import pandas as pd
